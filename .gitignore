@@ -1,0 +1,116 @@
+# Environment variables and secrets
+.env
+.env.local
+.env.*.local
+.env.*.example
+.env.production
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+PIPFILE.lock
+
+# Virtual Environment
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+
+# Audio files (temporary)
+audio_files/
+*.webm
+*.wav
+*.mp3
+*.ogg
+recording_*.webm
+audio_*.mp3
+
+# Logs
+*.log
+logs/
+logger.log
+
+# Cache
+.cache/
+*.cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+.temp/
+tmp/
+
+# OS
+Thumbs.db
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Node (if using node_modules)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# API Keys and sensitive data
+.api_keys
+*.key
+*.secret
+.credentials
+
+# Build artifacts
+dist/
+build/
+*.whl
+
+# Flask
+instance/
+.webassets-cache
+
+# VS Code
+.vscode/
+.history/
+
+# Misc
+.env.backup
+config.local.py
+*.pid
+run.sh
